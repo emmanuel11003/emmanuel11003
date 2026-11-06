@@ -7,6 +7,23 @@ Android Enthusiast & Developer specializing in lightweight, bloat-free TV experi
 ## 📺 Featured Project: [CleanYourTV (Haier 55P7GT-P Edition)](https://github.com/emmanuel11003/cleanyourtv)
 *A custom, performance-tuned fork of [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) engineered specifically for the Haier 55" Google TV platform.*
 
+### 📸 Live Screen Captures (Captured from Haier 55P7GT-P)
+
+<p align="center">
+  <img src="screenshots/home_aurora.png" width="800" alt="Aurora Theme with Transparent Glass Dock on Haier 55P7GT-P" />
+  <br>
+  <em>Home Screen with Permanent Aurora Glass UI, 5-Column Responsive Dock & LiveClock Subsystem</em>
+</p>
+
+<p align="center">
+  <img src="screenshots/dock_view.png" width="49%" alt="5-Column Dock Navigation" />
+  <img src="screenshots/task_switch.png" width="49%" alt="Fluid Task Transitions & Zero Pop-Up" />
+  <br>
+  <em>Left: 5-column calibrated dock navigation | Right: Instant task switching without pop-up or icon flash</em>
+</p>
+
+---
+
 ### 🚀 Key Features & Customizations
 
 #### 🎨 Visual & Theme Engine
