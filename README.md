@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/emmanuel11003/emmanuel11003/main/screenshots/header_banner.svg" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/emmanuel11003/emmanuel11003/main/screenshots/header_banner.svg" width="100%" alt="Emmanuel J Joseph - Android TV Tweaking & Customization" />
 </div>
 
 <p align="center">
-  <a href="https://github.com/emmanuel11003/cleanyourtv"><img src="https://img.shields.io/badge/Focus-Android_TV_Architecture-0A84FF?style=for-the-badge&logo=android&logoColor=white" alt="Focus" /></a>
+  <a href="https://github.com/emmanuel11003/cleanyourtv"><img src="https://img.shields.io/badge/Focus-Android_TV_Tweaks-0A84FF?style=for-the-badge&logo=android&logoColor=white" alt="Focus" /></a>
   <a href="https://github.com/emmanuel11003/cleanyourtv"><img src="https://img.shields.io/badge/Platform-Google_TV_14-30D158?style=for-the-badge&logo=google&logoColor=white" alt="Platform" /></a>
   <a href="https://github.com/emmanuel11003/cleanyourtv"><img src="https://img.shields.io/badge/Hardware-MediaTek_SoC-FF9F0A?style=for-the-badge&logo=arm&logoColor=white" alt="Hardware" /></a>
   <a href="https://github.com/emmanuel11003/cleanyourtv/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-BF5AF2?style=for-the-badge" alt="License" /></a>
@@ -11,19 +11,19 @@
 
 ---
 
-### 👨‍💻 Executive Summary
+### 🛠️ Overview
 
-Software developer specializing in **Android TV OS internals, embedded low-latency UI engineering, and firmware-level debloating**. Focused on extracting maximum framerate, responsiveness, and aesthetic clarity from memory-constrained Android smart TV hardware (MediaTek SoCs).
+Android TV enthusiast passionate about **tweaking, customizing, and optimizing smart TV experiences**. Focused on stripping bloatware, eliminating interface latency, and tailoring custom launcher themes for maximum speed and clean minimalism on smart TV hardware (MediaTek SoCs).
 
-- 🔭 **Lead Developer**: Custom fork & hardware architecture for [CleanYourTV (Haier 55" Platform)](https://github.com/emmanuel11003/cleanyourtv).
-- ⚡ **Core Philosophy**: Zero-bloat architectures, sub-frame input responsiveness, and hardware-accelerated minimalist design.
+- 📺 **Custom Setup**: Performance-tuned fork for [CleanYourTV (Haier 55" Platform)](https://github.com/emmanuel11003/cleanyourtv).
+- ⚡ **Goal**: Zero bloat, instant remote responsiveness, and clean aesthetic customization.
 - 🎯 **Target Device**: Haier 55P7GT-P / HR9676EU (Board: `omonia` / MediaTek, Google TV 14).
 
 ---
 
-## 📺 Flagship Project: CleanYourTV (Haier 55" Edition)
+## 📺 Featured Project: CleanYourTV (Haier 55" Edition)
 
-> Built on top of the open-source [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) baseline, fully re-engineered and tuned for real-world production use on 55" 4K Google TV 14 displays.
+> Built on top of the open-source [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) baseline, customized and tuned for real-world personal use on 55" 4K Google TV 14 displays.
 
 <div align="center">
   <table border="0" cellspacing="10" cellpadding="0">
@@ -57,7 +57,7 @@ Software developer specializing in **Android TV OS internals, embedded low-laten
 
 ---
 
-### 🛠️ Architecture & Engineering Highlights
+### ⚙️ Tweaks & Customization Highlights
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -72,7 +72,7 @@ Software developer specializing in **Android TV OS internals, embedded low-laten
 └──────────────────────┴───────────────────────┴─────────────────────────┘
 ```
 
-| Area | Engineering Implementation & Optimization |
+| Area | Tweaks & Applied Customizations |
 | :--- | :--- |
 | **Theme Engine** | Built-in permanent **Aurora Theme** defaults featuring translucent card backings, custom wallpaper gradients, and zero background render overhead. |
 | **Motion & Latency** | Hardcoded **0.5x animation scales** across window, transition, and animator durations to cut interface traversal latency in half on MediaTek processors. |
@@ -82,16 +82,16 @@ Software developer specializing in **Android TV OS internals, embedded low-laten
 
 ---
 
-### 🧰 Technical Proficiency
+### 🧰 Tools & Environment
 
 <div align="center">
 
-| Domain | Technologies & Tooling |
+| Domain | Tools & Setup |
 | :--- | :--- |
 | **Operating Systems** | `Android TV (Pie → 14)` `Google TV` `Linux / Shell` `Windows CLI` |
-| **Languages & Core** | `Java (Android SDK)` `Python` `Bash` `PowerShell` `XML Layouts` |
-| **Diagnostics & Tools**| `Android Debug Bridge (ADB)` `Logcat` `Systrace` `Git` `GitHub Actions` |
-| **Hardware Targets** | `MediaTek Smart TV SoCs` `Amlogic` `Realtek Embedded` |
+| **Languages & Configs**| `Java (Android SDK)` `Python` `XML Configs` `Bash / PowerShell` |
+| **Diagnostics & Tools**| `Android Debug Bridge (ADB)` `Logcat` `Git` `GitHub` |
+| **Hardware Targets** | `MediaTek Smart TV SoCs` `Haier 55" 4K TV` |
 
 </div>
 
