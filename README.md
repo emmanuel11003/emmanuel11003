@@ -3,10 +3,10 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/emmanuel11003"><img src="https://img.shields.io/badge/Focus-Android_TV_Architecture-0A84FF?style=for-the-badge&logo=android&logoColor=white" alt="Focus" /></a>
+  <a href="https://github.com/emmanuel11003/cleanyourtv"><img src="https://img.shields.io/badge/Focus-Android_TV_Architecture-0A84FF?style=for-the-badge&logo=android&logoColor=white" alt="Focus" /></a>
   <a href="https://github.com/emmanuel11003/cleanyourtv"><img src="https://img.shields.io/badge/Platform-Google_TV_14-30D158?style=for-the-badge&logo=google&logoColor=white" alt="Platform" /></a>
-  <a href="https://github.com/emmanuel11003"><img src="https://img.shields.io/badge/Hardware-MediaTek_SoC-FF9F0A?style=for-the-badge&logo=arm&logoColor=white" alt="Hardware" /></a>
-  <a href="https://github.com/emmanuel11003"><img src="https://img.shields.io/badge/License-MIT-BF5AF2?style=for-the-badge" alt="License" /></a>
+  <a href="https://github.com/emmanuel11003/cleanyourtv"><img src="https://img.shields.io/badge/Hardware-MediaTek_SoC-FF9F0A?style=for-the-badge&logo=arm&logoColor=white" alt="Hardware" /></a>
+  <a href="https://github.com/emmanuel11003/cleanyourtv/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-BF5AF2?style=for-the-badge" alt="License" /></a>
 </p>
 
 ---
@@ -30,7 +30,7 @@ Software developer specializing in **Android TV OS internals, embedded low-laten
     <tr>
       <td colspan="2" align="center">
         <a href="https://github.com/emmanuel11003/cleanyourtv">
-          <img src="screenshots/home_aurora.png" width="95%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);" alt="CleanYourTV Aurora Edition" />
+          <img src="https://raw.githubusercontent.com/emmanuel11003/emmanuel11003/main/screenshots/home_aurora.png" width="95%" alt="CleanYourTV Aurora Edition" />
         </a>
         <br>
         <sub><b>Primary Interface:</b> Hardcoded Aurora Glass Theme, Dynamic Status Bar, and 5-Column Responsive App Dock</sub>
@@ -38,14 +38,18 @@ Software developer specializing in **Android TV OS internals, embedded low-laten
     </tr>
     <tr>
       <td width="50%" align="center">
-        <img src="screenshots/dock_view.png" width="95%" style="border-radius: 8px;" alt="Calibrated 5-Column Dock" />
+        <a href="https://raw.githubusercontent.com/emmanuel11003/emmanuel11003/main/screenshots/dock_view.png" target="_blank">
+          <img src="https://raw.githubusercontent.com/emmanuel11003/emmanuel11003/main/screenshots/dock_view.png" width="95%" alt="Calibrated 5-Column Dock" />
+        </a>
         <br>
-        <sub><b>Dock Architecture:</b> 5-Column layout calibrated for 55" D-Pad remote navigation</sub>
+        <sub><b>Dock Architecture:</b> 5-Column layout calibrated for 55" D-Pad remote navigation <i>(Click to enlarge)</i></sub>
       </td>
       <td width="50%" align="center">
-        <img src="screenshots/task_switch.png" width="95%" style="border-radius: 8px;" alt="Flicker-Free Task Switcher" />
+        <a href="https://raw.githubusercontent.com/emmanuel11003/emmanuel11003/main/screenshots/task_switch.png" target="_blank">
+          <img src="https://raw.githubusercontent.com/emmanuel11003/emmanuel11003/main/screenshots/task_switch.png" width="95%" alt="Flicker-Free Task Switcher" />
+        </a>
         <br>
-        <sub><b>Engineered Transitions:</b> 0.5x duration scales with zero icon flash or pop-up latency</sub>
+        <sub><b>Engineered Transitions:</b> 0.5x duration scales with zero icon flash or pop-up latency <i>(Click to enlarge)</i></sub>
       </td>
     </tr>
   </table>
@@ -86,7 +90,7 @@ Software developer specializing in **Android TV OS internals, embedded low-laten
 | :--- | :--- |
 | **Operating Systems** | `Android TV (Pie → 14)` `Google TV` `Linux / Shell` `Windows CLI` |
 | **Languages & Core** | `Java (Android SDK)` `Python` `Bash` `PowerShell` `XML Layouts` |
-| **Diagnostics & Tools**| `Android Debug Bridge (ADB)` `Logcat` `Sysrace` `Git` `GitHub Actions` |
+| **Diagnostics & Tools**| `Android Debug Bridge (ADB)` `Logcat` `Systrace` `Git` `GitHub Actions` |
 | **Hardware Targets** | `MediaTek Smart TV SoCs` `Amlogic` `Realtek Embedded` |
 
 </div>
@@ -96,13 +100,22 @@ Software developer specializing in **Android TV OS internals, embedded low-laten
 ### 📈 GitHub Analytics
 
 <div align="center">
+  <p align="center">
+    <a href="https://github.com/emmanuel11003">
+      <img src="https://streak-stats.demolab.com/?user=emmanuel11003&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=58a6ff" alt="Emmanuel's Contribution Streak" />
+    </a>
+  </p>
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=emmanuel11003&show_icons=true&theme=github_dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="165" alt="Emmanuel's GitHub Stats" />
+      <td align="center">
+        <a href="https://github.com/emmanuel11003">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=emmanuel11003&theme=github_dark" alt="Profile Details" />
+        </a>
       </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuel11003&layout=compact&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="165" alt="Language Distribution" />
+      <td align="center">
+        <a href="https://github.com/emmanuel11003">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=emmanuel11003&theme=github_dark" alt="Most Commit Language" />
+        </a>
       </td>
     </tr>
   </table>
