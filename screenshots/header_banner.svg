@@ -1,0 +1,53 @@
+<svg width="100%" height="220" viewBox="0 0 1000 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#121824"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2f81f7"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2ea043" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0.4"/>
+    </linearGradient>
+    <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#58a6ff" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="220" rx="12" fill="url(#bgGradient)"/>
+  <rect width="1000" height="220" rx="12" fill="url(#dotPattern)"/>
+
+  <!-- Top Accent Border -->
+  <rect width="1000" height="3.5" rx="2" fill="url(#accentGradient)"/>
+
+  <!-- Decorative Waves -->
+  <path d="M 0 175 C 220 140, 360 210, 580 165 C 780 125, 880 185, 1000 160 L 1000 220 L 0 220 Z" fill="url(#wave1)"/>
+  <path d="M 0 192 C 180 170, 340 215, 520 185 C 720 155, 860 205, 1000 180 L 1000 220 L 0 220 Z" fill="url(#wave2)"/>
+
+  <!-- Center Badge / Chip -->
+  <g transform="translate(410, 26)">
+    <rect width="180" height="26" rx="13" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="16" cy="13" r="4.5" fill="#3fb950"/>
+    <text x="30" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#8b949e" letter-spacing="1.2">OPEN TO COLLAB</text>
+  </g>
+
+  <!-- Main Name -->
+  <text x="500" y="105" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="0.5">
+    Emmanuel J Joseph
+  </text>
+
+  <!-- Subtitle with Glowing Accent -->
+  <text x="500" y="146" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#58a6ff" letter-spacing="2.2">
+    ANDROID TV DEVELOPER  •  EMBEDDED SYSTEMS  •  UI OPTIMIZATION
+  </text>
+</svg>

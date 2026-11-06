@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36&height=210&section=header&text=Emmanuel%20J%20Joseph&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Android%20TV%20Developer%20%7C%20Embedded%20Systems%20%26%20UI%20Optimization&descFontSize=20&descAlignY=60&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/emmanuel11003/emmanuel11003/main/screenshots/header_banner.svg" width="100%" alt="Header Banner" />
 </div>
 
 <p align="center">
