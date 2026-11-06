@@ -1,72 +1,115 @@
-# Hi there, I'm Emmanuel 👋
-
-Android Enthusiast & Developer specializing in lightweight, bloat-free TV experiences and performance tuning for the **Haier 55P7GT-P / HR9676EU** (MediaTek `omonia`, Google TV 14).
-
----
-
-## 📺 Featured Project: [CleanYourTV (Haier 55P7GT-P Edition)](https://github.com/emmanuel11003/cleanyourtv)
-*A custom, performance-tuned fork of [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) engineered specifically for the Haier 55" Google TV platform.*
-
-### 📸 Live Screen Captures (Captured from Haier 55P7GT-P)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36&height=210&section=header&text=Emmanuel%20J%20Joseph&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Android%20TV%20Developer%20%7C%20Embedded%20Systems%20%26%20UI%20Optimization&descFontSize=20&descAlignY=60&descAlign=50" width="100%" alt="Header Banner" />
+</div>
 
 <p align="center">
-  <img src="screenshots/home_aurora.png" width="800" alt="Aurora Theme with Transparent Glass Dock on Haier 55P7GT-P" />
-  <br>
-  <em>Home Screen with Permanent Aurora Glass UI, 5-Column Responsive Dock & LiveClock Subsystem</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/dock_view.png" width="49%" alt="5-Column Dock Navigation" />
-  <img src="screenshots/task_switch.png" width="49%" alt="Fluid Task Transitions & Zero Pop-Up" />
-  <br>
-  <em>Left: 5-column calibrated dock navigation | Right: Instant task switching without pop-up or icon flash</em>
+  <a href="https://github.com/emmanuel11003"><img src="https://img.shields.io/badge/Focus-Android_TV_Architecture-0A84FF?style=for-the-badge&logo=android&logoColor=white" alt="Focus" /></a>
+  <a href="https://github.com/emmanuel11003/cleanyourtv"><img src="https://img.shields.io/badge/Platform-Google_TV_14-30D158?style=for-the-badge&logo=google&logoColor=white" alt="Platform" /></a>
+  <a href="https://github.com/emmanuel11003"><img src="https://img.shields.io/badge/Hardware-MediaTek_SoC-FF9F0A?style=for-the-badge&logo=arm&logoColor=white" alt="Hardware" /></a>
+  <a href="https://github.com/emmanuel11003"><img src="https://img.shields.io/badge/License-MIT-BF5AF2?style=for-the-badge" alt="License" /></a>
 </p>
 
 ---
 
-### 🚀 Key Features & Customizations
+### 👨‍💻 Executive Summary
 
-#### 🎨 Visual & Theme Engine
-- **Permanent Aurora Glass Defaults**: Hardcoded high-performance Aurora theme with transparent backgrounds, subtle card outlines, and zero background render overhead.
-- **5-Column Responsive Dock**: Dock geometry calibrated for 55-inch viewing distance and ergonomic D-pad step navigation.
-- **Custom Wallpaper & Card Integration**: Handled theme configuration with clean glass aesthetic and border focus highlights.
+Software developer specializing in **Android TV OS internals, embedded low-latency UI engineering, and firmware-level debloating**. Focused on extracting maximum framerate, responsiveness, and aesthetic clarity from memory-constrained Android smart TV hardware (MediaTek SoCs).
 
-#### ⚡ Performance & Animation Tuning
-- **0.5x Global Animation Scales**: Hardcoded `window_animation_scale`, `transition_animation_scale`, and `animator_duration_scale` to `0.5x`, cutting UI lag and latency on MediaTek SoCs in half.
-- **Android 14 Pop-Up & Flicker Elimination**: Removed activity launch window pop-up animations and resolved the Android 14 task-switch glitch where the previous app's icon flashed before launching the new task.
-- **Hardware-Accelerated Fluidity**: Stripped redundant view invalidations during rapid remote input.
-
-#### ⏱️ LiveClock Subsystem Fixes
-- **Baseline Alignment & Font Clipping**: Resolved vertical font cut-off on custom typefaces for the top status bar.
-- **Digit Doubling Fix**: Prevented simultaneous dual-text rendering during rapid time changes.
-- **Idle CPU Thread Conservation**: Automatically pauses the background clock ticker handler when the launcher is not in the foreground, saving CPU cycles and reducing standby RAM footprint.
-
-#### 🛡️ Dock Stability & System Debloat
-- **Dock Boundary Hardening**: Hardened layout boundaries and bounds checking in `DockDecoration` to eliminate scrolling glitches and focus traps.
-- **Retail Demo & Bloat Removal**: Deactivated the background retail store demo loop (`com.mediatek.tv.retaildemo`) and Google launcher bloat for an instant, clean boot.
+- 🔭 **Lead Developer**: Custom fork & hardware architecture for [CleanYourTV (Haier 55" Platform)](https://github.com/emmanuel11003/cleanyourtv).
+- ⚡ **Core Philosophy**: Zero-bloat architectures, sub-frame input responsiveness, and hardware-accelerated minimalist design.
+- 🎯 **Target Device**: Haier 55P7GT-P / HR9676EU (Board: `omonia` / MediaTek, Google TV 14).
 
 ---
 
-### 🛠️ Tech Stack & Platform
-<p align="left">
-  <img src="https://img.shields.io/badge/Android%20TV-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android TV" />
-  <img src="https://img.shields.io/badge/Google%20TV%2014-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google TV 14" />
-  <img src="https://img.shields.io/badge/MediaTek%20SoC-00A4E4?style=for-the-badge&logo=arm&logoColor=white" alt="MediaTek" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/ADB%20Tooling-02569B?style=for-the-badge&logo=android&logoColor=white" alt="ADB" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+## 📺 Flagship Project: CleanYourTV (Haier 55" Edition)
+
+> Built on top of the open-source [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) baseline, fully re-engineered and tuned for real-world production use on 55" 4K Google TV 14 displays.
+
+<div align="center">
+  <table border="0" cellspacing="10" cellpadding="0">
+    <tr>
+      <td colspan="2" align="center">
+        <a href="https://github.com/emmanuel11003/cleanyourtv">
+          <img src="screenshots/home_aurora.png" width="95%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);" alt="CleanYourTV Aurora Edition" />
+        </a>
+        <br>
+        <sub><b>Primary Interface:</b> Hardcoded Aurora Glass Theme, Dynamic Status Bar, and 5-Column Responsive App Dock</sub>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <img src="screenshots/dock_view.png" width="95%" style="border-radius: 8px;" alt="Calibrated 5-Column Dock" />
+        <br>
+        <sub><b>Dock Architecture:</b> 5-Column layout calibrated for 55" D-Pad remote navigation</sub>
+      </td>
+      <td width="50%" align="center">
+        <img src="screenshots/task_switch.png" width="95%" style="border-radius: 8px;" alt="Flicker-Free Task Switcher" />
+        <br>
+        <sub><b>Engineered Transitions:</b> 0.5x duration scales with zero icon flash or pop-up latency</sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### 📊 GitHub Activity
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=emmanuel11003&show_icons=true&theme=tokyonight&hide_border=true" alt="Emmanuel's GitHub stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuel11003&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="150" />
-</p>
+### 🛠️ Architecture & Engineering Highlights
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        HAIER 55P7GT-P PLATFORM                         │
+├──────────────────────┬───────────────────────┬─────────────────────────┤
+│    THEME & DOCK      │ PERFORMANCE TUNING    │    SUBSYSTEM FIXES      │
+├──────────────────────┼───────────────────────┼─────────────────────────┤
+│ • Permanent Aurora   │ • 0.5x System Scale   │ • Fixed Clock Baseline  │
+│ • Transparent Glass  │ • Instant App Launch  │ • Digit Ghosting Solved │
+│ • 5-Column Geometry  │ • No Window Pop-up    │ • Idle Thread Pauses    │
+│ • Zero Background UI │ • Eliminated Icon Lag │ • Hardened Dock Bounds  │
+└──────────────────────┴───────────────────────┴─────────────────────────┘
+```
+
+| Area | Engineering Implementation & Optimization |
+| :--- | :--- |
+| **Theme Engine** | Built-in permanent **Aurora Theme** defaults featuring translucent card backings, custom wallpaper gradients, and zero background render overhead. |
+| **Motion & Latency** | Hardcoded **0.5x animation scales** across window, transition, and animator durations to cut interface traversal latency in half on MediaTek processors. |
+| **Task Lifecycle** | Neutralized standard Android 14 task launch artifacts; eliminated the previous application's ghost icon flash when switching tasks via remote. |
+| **LiveClock Core** | Patched typeface baseline clipping and simultaneous dual-digit rendering; integrated lifecycle listeners to pause clock tick threads during background states. |
+| **System Hygiene** | Implemented non-destructive package disabling for background retail demo services (`com.mediatek.tv.retaildemo`) without root or partition modification. |
 
 ---
 
-<p align="center">
-  <i>Engineered for speed. Crafted for minimalism. Powered by open source.</i>
-</p>
+### 🧰 Technical Proficiency
+
+<div align="center">
+
+| Domain | Technologies & Tooling |
+| :--- | :--- |
+| **Operating Systems** | `Android TV (Pie → 14)` `Google TV` `Linux / Shell` `Windows CLI` |
+| **Languages & Core** | `Java (Android SDK)` `Python` `Bash` `PowerShell` `XML Layouts` |
+| **Diagnostics & Tools**| `Android Debug Bridge (ADB)` `Logcat` `Sysrace` `Git` `GitHub Actions` |
+| **Hardware Targets** | `MediaTek Smart TV SoCs` `Amlogic` `Realtek Embedded` |
+
+</div>
+
+---
+
+### 📈 GitHub Analytics
+
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=emmanuel11003&show_icons=true&theme=github_dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="165" alt="Emmanuel's GitHub Stats" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuel11003&layout=compact&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="165" alt="Language Distribution" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<div align="center">
+  <sub>Maintained by <b>Emmanuel J Joseph</b> • Code licensed under <a href="https://github.com/emmanuel11003/cleanyourtv/blob/main/LICENSE">MIT</a> • Upstream base: <a href="https://github.com/Gathin23/cleanyourtv">Gathin23/cleanyourtv</a></sub>
+</div>
